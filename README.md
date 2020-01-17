@@ -1,5 +1,3 @@
-
-
 ## Chicago Ridesharing Analysis
  
 
