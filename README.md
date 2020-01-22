@@ -14,7 +14,7 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
  - Anesu Masube ([@anesumasube](https://github.com/anesumasube/))
 
 ## Summary & Links to Files:
-- [Slide Deck (PDF)](presentation/)
+- [Slide Deck (PDF)](presentation/rideshare.pdf)
 - [Data Sources](data/)
 - [Notebooks](notebooks/)
     - [Technical Notebook](notebooks/rideshare.ipynb)
