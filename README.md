@@ -2,7 +2,12 @@
  
 
 ## Goals
-The goal of this analysis is to ...
+**Can data help ridesharing drivers earn more?**
+
+The key question we look to answer is whether knowing where a ridesharing ride was initiated and what time it was initiated can help us to predict the fare for that ride.
+
+Eventually our goal is to provide these insights to ridesharing drivers as a service to help them choose the best driving schedules and waiting positions to optimize their earnings.
+
 
 ## Contributors:
  - Muoyo Okome ([@muoyo](https://github.com/muoyo/))
