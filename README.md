@@ -21,7 +21,7 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
     - [Technical Notebook](notebooks/rideshare.ipynb)
     - [Weather Manipulations](notebooks/weather.ipynb)
     - [Exploratory Data Analysis](notebooks/rideshare_EDA.ipynb)
-    - [Visualization Notebook](notebooks/Final_Visualizations_and_EDA.ipynb.ipynb)
+    - [Visualization Notebook](notebooks/Final_Visualizations_and_EDA.ipynb)
 - [Python Files](python_files/)
     - [Utilities](python_files/utils.py)
     - [Data Cleaning](python_files/data_cleaning.py)
