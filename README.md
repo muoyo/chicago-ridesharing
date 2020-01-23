@@ -15,7 +15,8 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
 
 ## Summary & Links to Files:
 - [Slide Deck (PDF)](presentation/rideshare.pdf)
-- [Data Sources](data/)
+- [Data Sources](notebooks/rideshare.ipynb#datasources)
+    - [CSV Files](data/)
 - [Notebooks](notebooks/)
     - [Technical Notebook](notebooks/rideshare.ipynb)
     - [Weather Manipulations](notebooks/weather.ipynb)
