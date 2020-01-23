@@ -58,6 +58,8 @@ def clean_columns(df):
     df['trip_end_timestamp'] = pd.to_datetime(df['trip_end_timestamp'])
     df['trip_seconds'] = df['trip_seconds'].fillna('0')
     df['trip_seconds'] = df['trip_seconds'].astype('int64')
+    df['pickup_community_area'] = df['pickup_community_area'].fillna('0')
+    df['pickup_community_area'] = df['pickup_community_area'].astype('int64')
 
     for col in ['trip_miles', 'fare', 'tip', 'additional_charges', 'trip_total']:
         df[col] = df[col].astype(float) 
