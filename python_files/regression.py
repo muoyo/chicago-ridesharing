@@ -59,15 +59,21 @@ def Ridge(X, y, prefix='Training'):
 
 def get_train_test_split(df, test_size=.25):
 
+    # Limit to the columns we are interested in: 
+    # 'apparentTemperature', 'start_weekday', 'start_hour', (OR 'start_time_block'), 'pickup_community_area' 
+
     columns_to_use = ['apparentTemperature', 'start_weekday', 'start_time_block', 'pickup_community_area']
     columns_to_drop = [ col for col in df.columns if col not in columns_to_use ]
 
+    # Use dependent variables listed above to predict the independent variable: 'trip_total' OR 'fare'
     X = df.drop(columns=columns_to_drop)
     y = df['trip_total']
 
+    # deal with any null values
     X['apparentTemperature']=X['apparentTemperature'].fillna(X['apparentTemperature'].median())
     X['pickup_community_area']=X['pickup_community_area'].fillna('0')
 
+    # Split out continuous & categorical variables
     cont_cols = ['apparentTemperature']
     cat_cols = [ col for col in columns_to_use if col not in cont_cols ]
 
