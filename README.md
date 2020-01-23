@@ -24,4 +24,4 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
     - [Hypothesis Tests](python_files/hypothesis_tests.py)
     - [Visualizations](python_files/visualizations.py)
 
-![](./images/rideshare.jpeg =450x)
+<p><img src='images/rideshare.jpeg' width='500'>
