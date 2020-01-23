@@ -43,7 +43,7 @@ def get_random_samples(client, num_samples=200, sample_size=1000, verbose=False)
     if verbose:
         print('Pure Python time:', time.time() - start, 'sec.')
 
-    return results        
+    return pd.DataFrame.from_records(results)       
     
 def get_trip_records(limit=100000):
     
