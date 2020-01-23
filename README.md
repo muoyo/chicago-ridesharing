@@ -23,3 +23,5 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
     - [Data Cleaning](python_files/data_cleaning.py)
     - [Hypothesis Tests](python_files/hypothesis_tests.py)
     - [Visualizations](python_files/visualizations.py)
+
+![](./images/rideshare.jpeg =450x)
