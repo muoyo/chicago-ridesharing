@@ -13,9 +13,9 @@ from matplotlib.colors import ListedColormap
 
 
 # Controls appearance of seaborn plots. Options: paper, notebook, talk, or poster
-SEABORN_CONTEXT = 'talk' 
-SEABORN_PALETTE = sns.color_palette("dark")
-
+SEABORN_CONTEXT = 'notebook' 
+SEABORN_PALETTE = sns.color_palette("muted")
+sns.set_context(SEABORN_CONTEXT)
 
 
 def barplot(x, y, counties, ax, title, color):
