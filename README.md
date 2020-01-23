@@ -23,9 +23,9 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
     - [Exploratory Data Analysis](notebooks/rideshare_EDA.ipynb)
     - [Visualization Notebook](notebooks/Visualizations_+_EDA.ipynb)
 - [Python Files](python_files/)
-    - [Data Cleaning](python_files/data_cleaning.py)
-    - [Hypothesis Tests](python_files/hypothesis_tests.py)
     - [Utilities](python_files/utils.py)
+    - [Data Cleaning](python_files/data_cleaning.py)
+    - [Linear Regression](python_files/regression.py)
     - [Visualizations](python_files/visualizations.py)
 
 <p><img src='images/rideshare.jpeg'>
