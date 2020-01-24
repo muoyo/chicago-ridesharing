@@ -1,4 +1,4 @@
-## Chicago Ridesharing Analysis: Can data help drivers earn more? 
+## Chicago Ridesharing: Can data help drivers earn more? 
 
 ## Goals
 
