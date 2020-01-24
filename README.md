@@ -1,8 +1,6 @@
-## Chicago Ridesharing Analysis
-#### Can data help ridesharing drivers earn more? 
+## Can data help ridesharing drivers earn more? 
 
 ## Goals
-
 
 The key question we look to answer is whether knowing where a ridesharing ride was initiated and what time it was initiated can help us to predict the fare for that ride.
 
