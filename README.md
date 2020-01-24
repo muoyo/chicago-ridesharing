@@ -19,13 +19,14 @@ Eventually our goal is to provide these insights to ridesharing drivers as a ser
     - [CSV Files](data/)
 - [Notebooks](notebooks/)
     - [Technical Notebook](notebooks/rideshare.ipynb)
-    - [Weather Manipulations](notebooks/weather.ipynb)
+    - [Weather Data Preparation](notebooks/weather.ipynb)
     - [Exploratory Data Analysis](notebooks/rideshare_EDA.ipynb)
-    - [Visualization Notebook](notebooks/Final_Visualizations_and_EDA.ipynb)
+    - [Visualizations & EDA](notebooks/Final_Visualizations_and_EDA.ipynb)
 - [Python Files](python_files/)
     - [Utilities](python_files/utils.py)
     - [Data Cleaning](python_files/data_cleaning.py)
     - [Linear Regression](python_files/regression.py)
     - [Visualizations](python_files/visualizations.py)
+    - [Weather](python_files/weather.py)
 
 <p><img src='images/rideshare.jpeg'>
