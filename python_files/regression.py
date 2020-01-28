@@ -70,8 +70,8 @@ def get_train_test_split(df, test_size=.25):
     y = df['trip_total']
 
     # deal with any null values
-    X['apparentTemperature']=X['apparentTemperature'].fillna(X['apparentTemperature'].median())
-    X['pickup_community_area']=X['pickup_community_area'].fillna('0')
+    # X['apparentTemperature']=X['apparentTemperature'].fillna(X['apparentTemperature'].median())
+    # X['pickup_community_area']=X['pickup_community_area'].fillna('0')
 
     # Split out continuous & categorical variables
     cont_cols = ['apparentTemperature']

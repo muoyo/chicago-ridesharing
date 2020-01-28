@@ -37,6 +37,11 @@ def merge_weather (df):
 
     precip_df = weather_df[['start_date_plus_hour', 'precip', 'apparentTemperature']]
     df = df.merge(precip_df, how='left', on='start_date_plus_hour')
+    
+    # deal with any null values
+    df['apparentTemperature']=df['apparentTemperature'].fillna(df['apparentTemperature'].median())
+    df['precip']=df['precip'].fillna('missing')
+
 
     return df
 
@@ -74,6 +79,7 @@ def clean_columns(df):
     # We use the start_date_plus hour column to merge trip data with weather data at the hourly level
     
     df['start_date_plus_hour'] = df['trip_start_timestamp'].apply(lambda d: datetime(d.year, d.month, d.day, d.hour))    
+    
     
     return df
 
